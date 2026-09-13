@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-0m8xp9VUvs)
+- Live Site URL: [Live Site](https://nikita-cheropkin.github.io/FrontendManorProject-9/social-links-profile/site20.html)
 
 
 ### Built with
