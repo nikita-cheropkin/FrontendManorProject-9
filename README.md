@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-0m8xp9VUvs)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-links-profile--Re1wtEDiI)
 - Live Site URL: [Live Site](https://nikita-cheropkin.github.io/FrontendManorProject-9/social-links-profile/site20.html)
 
 
