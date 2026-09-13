@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: hsl(0, 0%, 8%);
+    --card-color: hsl(0, 0%, 12%);
+    --btn-color: hsl(0, 0%, 20%);
+    --green-color: hsl(75, 94%, 57%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Inter";
+    padding: 24px;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../Fonts/static/Inter-Regular.ttf");
+}
+
+.card {
+    background-color: var(--card-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 420px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+.card h1 {
+    color: white;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card h2 {
+    color: var(--green-color);
+    font-size: 0.875rem;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.card h3 {
+    font-weight: 400;
+    color: hsl(0, 0%, 75%);
+    font-size: 0.875rem;
+    margin: 24px 0;
+}
+
+.card nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.card nav button {
+    width: 100%;
+    color: white;
+    background-color: var(--btn-color);
+    border: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.card nav button:hover {
+    background-color: var(--green-color);
+    color: black;
+}
+
+.info {
+    padding: 0px 15px;
+}
